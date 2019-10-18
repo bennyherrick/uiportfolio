@@ -47,8 +47,14 @@
         case MODULO:
             calcAnswer = (double)((int)arg1 % (int)arg2);
             break;
+        case NEGATIVE:
+             calcAnswer = arg1 * -1;
+            break;
+        case EXPONENT:
+            calcAnswer = (double) pow(arg1,arg2);
         case -1:
             calcAnswer = arg1;
+            
     }
 }
 
@@ -148,6 +154,26 @@
     [self clearCalcAreaLabel];
 }
 
+-(IBAction)exponentButton:(id)sender {  // Interface Builder action for plus (+)
+    [self saveValueOfOperator:EXPONENT];
+    [self saveValueOfArg1];
+    [self clearCalcAreaLabel];
+}
+    
+-(IBAction)negativeButton:(id)sender {  // Interface Builder action for plus (+)
+    [self saveValueOfOperator:NEGATIVE];
+    [self saveValueOfArg1];
+    [self clearCalcAreaLabel];
+    [self calculateAnswer];
+    
+    // set and display result
+    [self setCalcAreaNumber:[NSString stringWithFormat:@"%f", calcAnswer]];  // float (double) to string
+    [self setTextCalcAreaLabel];
+    
+    // set values to support continued calculations, but wipe if you type a number
+    [self saveValueofAnswer];                   // answer -> arg1
+    [self setInitialCalcAreaInputState:true];   // number key typing will wipe value
+}
 // Interface Builder actions  for numbers and decimal
 -(IBAction)press9Button:(id)sender {  // Interface Builder action for (9)
     NSString *keyNumber = @"9";

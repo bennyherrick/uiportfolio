@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Bennys app/ViewController.m"
-            timestampString = "592869238.739161"
+            timestampString = "593130492.3669339"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "-equalButton:"
             landmarkType = "7">
          </BreakpointContent>
