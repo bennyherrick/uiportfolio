@@ -215,9 +215,10 @@
     NSString *keyNumber = @"0";
     [self concatCalcAreaLabel:keyNumber];
 }
-
-
-/* End Section 2 */
+-(IBAction)pressDecimalButton:(id)sender {  // Interface Builder action for (.)
+    NSString *keyNumber = @".";
+    [self concatCalcAreaLabel:keyNumber];
+}
 
 
 @end  // End of Implementation
