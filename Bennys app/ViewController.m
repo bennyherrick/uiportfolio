@@ -52,9 +52,14 @@
             break;
         case EXPONENT:
             calcAnswer = (double) pow(arg1,arg2);
+        case FACTORIAL:
+            calcAnswer = 1.0;
+            for(int i  = 1; i <= arg1; i++){
+                calcAnswer = calcAnswer * i;
+            }
+            break;
         case -1:
             calcAnswer = arg1;
-            
     }
 }
 
@@ -173,6 +178,10 @@
     // set values to support continued calculations, but wipe if you type a number
     [self saveValueofAnswer];                   // answer -> arg1
     [self setInitialCalcAreaInputState:true];   // number key typing will wipe value
+}
+-(IBAction)factorialButton:(id)sender {  // Interface Builder action for plus (+)
+    [self saveValueOfOperator:FACTORIAL];
+    [self saveValueOfArg1];
 }
 // Interface Builder actions  for numbers and decimal
 -(IBAction)press9Button:(id)sender {  // Interface Builder action for (9)

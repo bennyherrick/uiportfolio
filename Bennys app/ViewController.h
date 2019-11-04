@@ -16,7 +16,7 @@
 #define MODULO 4
 #define NEGATIVE 5
 #define EXPONENT 6
-
+#define FACTORIAL 7
 @interface ViewController : UIViewController
 /* Section 1: Classic C style variables to support calculation */
 {
