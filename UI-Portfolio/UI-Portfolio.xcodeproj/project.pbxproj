@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B06E1A2F2374CA0400A419AA /* calc.m in Sources */ = {isa = PBXBuildFile; fileRef = B06E1A2E2374CA0400A419AA /* calc.m */; };
+		B08D0157237237EF0012A23E /* calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D0156237237EF0012A23E /* calculator.storyboard */; };
+		B08D015923723C3B0012A23E /* pythagorus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D015823723C3B0012A23E /* pythagorus.storyboard */; };
+		B08D015B23723CFA0012A23E /* jumpers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D015A23723CFA0012A23E /* jumpers.storyboard */; };
 		B0F417C22370D7D200CB3AE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F417C12370D7D200CB3AE3 /* AppDelegate.m */; };
 		B0F417C52370D7D200CB3AE3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F417C42370D7D200CB3AE3 /* SceneDelegate.m */; };
 		B0F417C82370D7D200CB3AE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F417C72370D7D200CB3AE3 /* ViewController.m */; };
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B06E1A2E2374CA0400A419AA /* calc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calc.m; sourceTree = "<group>"; };
+		B06E1A302374CA2200A419AA /* calc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calc.h; sourceTree = "<group>"; };
+		B08D0156237237EF0012A23E /* calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = calculator.storyboard; sourceTree = "<group>"; };
+		B08D015823723C3B0012A23E /* pythagorus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = pythagorus.storyboard; sourceTree = "<group>"; };
+		B08D015A23723CFA0012A23E /* jumpers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = jumpers.storyboard; sourceTree = "<group>"; };
 		B0F417BD2370D7D200CB3AE3 /* UI-Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F417C02370D7D200CB3AE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0F417C12370D7D200CB3AE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +131,8 @@
 			children = (
 				B0F417C72370D7D200CB3AE3 /* ViewController.m */,
 				B0F417C62370D7D200CB3AE3 /* ViewController.h */,
+				B06E1A2E2374CA0400A419AA /* calc.m */,
+				B06E1A302374CA2200A419AA /* calc.h */,
 			);
 			path = "View controls ";
 			sourceTree = "<group>";
@@ -131,6 +142,9 @@
 			children = (
 				B0F417CE2370D7D400CB3AE3 /* LaunchScreen.storyboard */,
 				B0F417C92370D7D200CB3AE3 /* Main.storyboard */,
+				B08D0156237237EF0012A23E /* calculator.storyboard */,
+				B08D015823723C3B0012A23E /* pythagorus.storyboard */,
+				B08D015A23723CFA0012A23E /* jumpers.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,8 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0F417D02370D7D400CB3AE3 /* LaunchScreen.storyboard in Resources */,
+				B08D015923723C3B0012A23E /* pythagorus.storyboard in Resources */,
 				B0F417CD2370D7D400CB3AE3 /* Assets.xcassets in Resources */,
+				B08D0157237237EF0012A23E /* calculator.storyboard in Resources */,
 				B0F417CB2370D7D200CB3AE3 /* Main.storyboard in Resources */,
+				B08D015B23723CFA0012A23E /* jumpers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06E1A2F2374CA0400A419AA /* calc.m in Sources */,
 				B0F417C82370D7D200CB3AE3 /* ViewController.m in Sources */,
 				B0F417C22370D7D200CB3AE3 /* AppDelegate.m in Sources */,
 				B0F417D32370D7D400CB3AE3 /* main.m in Sources */,
