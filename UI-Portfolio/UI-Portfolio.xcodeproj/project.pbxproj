@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B06E1A2F2374CA0400A419AA /* calc.m in Sources */ = {isa = PBXBuildFile; fileRef = B06E1A2E2374CA0400A419AA /* calc.m */; };
+		B06E1A322374D0C700A419AA /* steve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B06E1A312374D0C700A419AA /* steve.jpg */; };
+		B06E1A362374D15800A419AA /* pythagorus.m in Sources */ = {isa = PBXBuildFile; fileRef = B06E1A352374D15800A419AA /* pythagorus.m */; };
 		B08D0157237237EF0012A23E /* calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D0156237237EF0012A23E /* calculator.storyboard */; };
 		B08D015923723C3B0012A23E /* pythagorus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D015823723C3B0012A23E /* pythagorus.storyboard */; };
 		B08D015B23723CFA0012A23E /* jumpers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D015A23723CFA0012A23E /* jumpers.storyboard */; };
@@ -40,6 +42,10 @@
 /* Begin PBXFileReference section */
 		B06E1A2E2374CA0400A419AA /* calc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calc.m; sourceTree = "<group>"; };
 		B06E1A302374CA2200A419AA /* calc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calc.h; sourceTree = "<group>"; };
+		B06E1A312374D0C700A419AA /* steve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = steve.jpg; path = ../../../steve.jpg; sourceTree = "<group>"; };
+		B06E1A342374D0DF00A419AA /* steve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve.jpg; sourceTree = "<group>"; };
+		B06E1A352374D15800A419AA /* pythagorus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pythagorus.m; sourceTree = "<group>"; };
+		B06E1A372374D16900A419AA /* pythagorus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythagorus.h; sourceTree = "<group>"; };
 		B08D0156237237EF0012A23E /* calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = calculator.storyboard; sourceTree = "<group>"; };
 		B08D015823723C3B0012A23E /* pythagorus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = pythagorus.storyboard; sourceTree = "<group>"; };
 		B08D015A23723CFA0012A23E /* jumpers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = jumpers.storyboard; sourceTree = "<group>"; };
@@ -84,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B06E1A332374D0D300A419AA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B06E1A342374D0DF00A419AA /* steve.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		B0F417B42370D7D200CB3AE3 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +125,8 @@
 				B0F417F72370D86F00CB3AE3 /* Views */,
 				B0F417D12370D7D400CB3AE3 /* Info.plist */,
 				B0F417CC2370D7D400CB3AE3 /* Assets.xcassets */,
+				B06E1A312374D0C700A419AA /* steve.jpg */,
+				B06E1A332374D0D300A419AA /* Images */,
 			);
 			path = "UI-Portfolio";
 			sourceTree = "<group>";
@@ -133,6 +149,8 @@
 				B0F417C62370D7D200CB3AE3 /* ViewController.h */,
 				B06E1A2E2374CA0400A419AA /* calc.m */,
 				B06E1A302374CA2200A419AA /* calc.h */,
+				B06E1A352374D15800A419AA /* pythagorus.m */,
+				B06E1A372374D16900A419AA /* pythagorus.h */,
 			);
 			path = "View controls ";
 			sourceTree = "<group>";
@@ -257,6 +275,7 @@
 				B0F417CD2370D7D400CB3AE3 /* Assets.xcassets in Resources */,
 				B08D0157237237EF0012A23E /* calculator.storyboard in Resources */,
 				B0F417CB2370D7D200CB3AE3 /* Main.storyboard in Resources */,
+				B06E1A322374D0C700A419AA /* steve.jpg in Resources */,
 				B08D015B23723CFA0012A23E /* jumpers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06E1A2F2374CA0400A419AA /* calc.m in Sources */,
+				B06E1A362374D15800A419AA /* pythagorus.m in Sources */,
 				B0F417C82370D7D200CB3AE3 /* ViewController.m in Sources */,
 				B0F417C22370D7D200CB3AE3 /* AppDelegate.m in Sources */,
 				B0F417D32370D7D400CB3AE3 /* main.m in Sources */,
