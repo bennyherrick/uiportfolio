@@ -22,6 +22,7 @@
 #define NEGATIVE 5
 #define EXPONENT 6
 #define FACTORIAL 7
+#define PYTHAGORUS 8
 @interface calc : UIViewController
 /* Section 1: Classic C style variables to support calculation */
 {

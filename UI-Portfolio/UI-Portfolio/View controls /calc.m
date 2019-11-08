@@ -37,6 +37,9 @@
         case PLUS:
             calcAnswer = arg1 + arg2;
             break;
+        case PYTHAGORUS:
+            calcAnswer = sqrt ((arg1 * arg1) + (arg2 * arg2)) ;
+            break;
         case MINUS:
             calcAnswer = arg1 - arg2;
             break;
@@ -184,7 +187,15 @@
 -(IBAction)factorialButton:(id)sender {  // Interface Builder action for plus (+)
     [self saveValueOfOperator:FACTORIAL];
     [self saveValueOfArg1];
+
 }
+-(IBAction)pythagorusButton:(id)sender {  // Interface Builder action for plus (+)
+    [self saveValueOfOperator:PYTHAGORUS];
+    [self setTextCalcAreaLabel];
+    [self saveValueOfArg1];
+    [self clearCalcAreaLabel];
+}
+
 // Interface Builder actions  for numbers and decimal
 -(IBAction)press9Button:(id)sender {  // Interface Builder action for (9)
     NSString *keyNumber = @"9";

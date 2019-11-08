@@ -280,6 +280,14 @@
                                     <action selector="factorialButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9OA-N4-64b"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMw-CH-vuT">
+                                <rect key="frame" x="128" y="617" width="78" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="pythagorus"/>
+                                <connections>
+                                    <action selector="pythagorusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w1P-eS-6um"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

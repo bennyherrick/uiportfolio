@@ -69,20 +69,20 @@
             </objects>
             <point key="canvasLocation" x="1668" y="63.868065967016499"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--pythagorus-->
         <scene sceneID="lFG-g3-IuI">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="pythagorus" id="1oi-wH-52p" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="pythagorus" storyboardName="pythagorus" referencedIdentifier="pythagorus" id="1oi-wH-52p" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="HFy-xX-xph"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2j4-bD-gdN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1832.8" y="228.48575712143929"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--jumpers-->
         <scene sceneID="kzV-xX-A1G">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="jumpers" id="Q00-VT-mt1" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="jumpers" storyboardName="jumpers" referencedIdentifier="jumpers" id="Q00-VT-mt1" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="46i-Ki-8YW"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xXE-jH-Umh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
