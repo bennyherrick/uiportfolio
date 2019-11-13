@@ -16,6 +16,10 @@
 		B08D0157237237EF0012A23E /* calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D0156237237EF0012A23E /* calculator.storyboard */; };
 		B08D015923723C3B0012A23E /* pythagorus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D015823723C3B0012A23E /* pythagorus.storyboard */; };
 		B08D015B23723CFA0012A23E /* jumpers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08D015A23723CFA0012A23E /* jumpers.storyboard */; };
+		B0C9E8EF237CA10A00014E3E /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = B0C9E8ED237CA10900014E3E /* calc.c */; };
+		B0C9E8F1237CA46500014E3E /* Square lab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C9E8F0237CA46500014E3E /* Square lab.storyboard */; };
+		B0C9E8F3237CA5AA00014E3E /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C9E8F2237CA5AA00014E3E /* square.png */; };
+		B0C9E8F5237CADF200014E3E /* SquareLab.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C9E8F4237CADF100014E3E /* SquareLab.m */; };
 		B0F417C22370D7D200CB3AE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F417C12370D7D200CB3AE3 /* AppDelegate.m */; };
 		B0F417C52370D7D200CB3AE3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F417C42370D7D200CB3AE3 /* SceneDelegate.m */; };
 		B0F417C82370D7D200CB3AE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F417C72370D7D200CB3AE3 /* ViewController.m */; };
@@ -55,6 +59,12 @@
 		B08D0156237237EF0012A23E /* calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = calculator.storyboard; sourceTree = "<group>"; };
 		B08D015823723C3B0012A23E /* pythagorus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = pythagorus.storyboard; sourceTree = "<group>"; };
 		B08D015A23723CFA0012A23E /* jumpers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = jumpers.storyboard; sourceTree = "<group>"; };
+		B0C9E8ED237CA10900014E3E /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = calc.c; path = "../../../../../Downloads/p1f-jm1021-master/Uiportfolio/Control/calc.c"; sourceTree = "<group>"; };
+		B0C9E8EE237CA10900014E3E /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control.h; path = "../../../../../Downloads/p1f-jm1021-master/Uiportfolio/Control/control.h"; sourceTree = "<group>"; };
+		B0C9E8F0237CA46500014E3E /* Square lab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Square lab.storyboard"; sourceTree = "<group>"; };
+		B0C9E8F2237CA5AA00014E3E /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = ../../../../square.png; sourceTree = "<group>"; };
+		B0C9E8F4237CADF100014E3E /* SquareLab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareLab.m; sourceTree = "<group>"; };
+		B0C9E8F6237CAE0000014E3E /* SquareLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareLab.h; sourceTree = "<group>"; };
 		B0F417BD2370D7D200CB3AE3 /* UI-Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F417C02370D7D200CB3AE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0F417C12370D7D200CB3AE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,12 +109,22 @@
 		B06E1A332374D0D300A419AA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B0C9E8F2237CA5AA00014E3E /* square.png */,
 				B07F309123762C8200748044 /* Unknown.png */,
 				B06E1A3A2374D51900A419AA /* maxresdefault.jpg */,
 				B06E1A382374D3EC00A419AA /* PythagoreanTheoremFigure_1000.gif */,
 				B06E1A342374D0DF00A419AA /* steve.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		B0C9E8EC237CA0EF00014E3E /* control */ = {
+			isa = PBXGroup;
+			children = (
+				B0C9E8ED237CA10900014E3E /* calc.c */,
+				B0C9E8EE237CA10900014E3E /* control.h */,
+			);
+			path = control;
 			sourceTree = "<group>";
 		};
 		B0F417B42370D7D200CB3AE3 = {
@@ -128,6 +148,7 @@
 		B0F417BF2370D7D200CB3AE3 /* UI-Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				B0C9E8EC237CA0EF00014E3E /* control */,
 				B0F417D22370D7D400CB3AE3 /* main.m */,
 				B0F417F52370D82100CB3AE3 /* models */,
 				B0F417F62370D83A00CB3AE3 /* View controls  */,
@@ -160,6 +181,8 @@
 				B06E1A302374CA2200A419AA /* calc.h */,
 				B06E1A352374D15800A419AA /* pythagorus.m */,
 				B06E1A372374D16900A419AA /* pythagorus.h */,
+				B0C9E8F4237CADF100014E3E /* SquareLab.m */,
+				B0C9E8F6237CAE0000014E3E /* SquareLab.h */,
 			);
 			path = "View controls ";
 			sourceTree = "<group>";
@@ -172,6 +195,7 @@
 				B08D0156237237EF0012A23E /* calculator.storyboard */,
 				B08D015823723C3B0012A23E /* pythagorus.storyboard */,
 				B08D015A23723CFA0012A23E /* jumpers.storyboard */,
+				B0C9E8F0237CA46500014E3E /* Square lab.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,11 +307,13 @@
 				B08D015923723C3B0012A23E /* pythagorus.storyboard in Resources */,
 				B0F417CD2370D7D400CB3AE3 /* Assets.xcassets in Resources */,
 				B08D0157237237EF0012A23E /* calculator.storyboard in Resources */,
+				B0C9E8F1237CA46500014E3E /* Square lab.storyboard in Resources */,
 				B0F417CB2370D7D200CB3AE3 /* Main.storyboard in Resources */,
 				B06E1A322374D0C700A419AA /* steve.jpg in Resources */,
 				B07F309223762C8300748044 /* Unknown.png in Resources */,
 				B08D015B23723CFA0012A23E /* jumpers.storyboard in Resources */,
 				B06E1A3B2374D51900A419AA /* maxresdefault.jpg in Resources */,
+				B0C9E8F3237CA5AA00014E3E /* square.png in Resources */,
 				B06E1A392374D3EC00A419AA /* PythagoreanTheoremFigure_1000.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +345,8 @@
 				B0F417C22370D7D200CB3AE3 /* AppDelegate.m in Sources */,
 				B0F417D32370D7D400CB3AE3 /* main.m in Sources */,
 				B0F417C52370D7D200CB3AE3 /* SceneDelegate.m in Sources */,
+				B0C9E8EF237CA10A00014E3E /* calc.c in Sources */,
+				B0C9E8F5237CADF200014E3E /* SquareLab.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
